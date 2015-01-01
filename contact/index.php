@@ -5,7 +5,7 @@
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
 		$from = 'hatzart.com Contact Form Submission'; 
-		$to = 'bogusemail@gmail.com'; 
+		$to = 'ahatzikyriakou@gmail.com'; 
 		$subject = 'Contact form submission on hatzart.com';
 		
 		$body = "From: $name\n\nE-Mail: $email\n\nMessage:\n$message";
@@ -42,12 +42,16 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
 		<title>Amanda Hatzikyriakou | Contact</title>
 		<meta name="description" content="">
+		<script src="/js/head.load.min.js"></script>
+		<script>
+			head.load("//code.jquery.com/jquery-1.11.2.min.js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js");
+		</script>
 	</head>
 	<body>
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/nav-banner.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/nav-banner.php'; ?>
 		<div class="contact">
 			<div class="container">
 				<div class="row">
@@ -94,6 +98,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 				</div>
 			</div>
 		</div>
-		<div class="spacer10"></div>
+		<div class="spacer20"></div>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 	</body>
 </html>

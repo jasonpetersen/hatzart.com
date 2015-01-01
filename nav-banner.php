@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -12,7 +12,7 @@
 					<ul class="nav navbar-nav">
 						<li><a href="/">Home</a></li>
 						<li class="disabled"><a href="#">About</a></li>
-						<li class="disabled"><a href="#">Gallery</a></li>
+						<li><a href="/gallery">Gallery</a></li>
 						<li><a href="/contact">Contact</a></li>
 					</ul>
 				</div>
