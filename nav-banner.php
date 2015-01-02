@@ -22,7 +22,7 @@
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 green"></div>
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 magenta"></div>
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 blue"></div>
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 yellow"></div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 orange"></div>
 				</div>
 			</div>
 		</nav>

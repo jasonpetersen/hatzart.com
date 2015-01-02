@@ -52,27 +52,27 @@ body {
 }
 
 .red {
-	background-color: #ff0000;
+	background-color: #d9534f;
 }
 
 .green {
-	background-color: #00ff00;
+	background-color: #5cb85c;
 }
 
 .blue {
-	background-color: #0000ff;
+	background-color: #428bca;
 }
 
 .cyan {
-	background-color: #00ffff;
+	background-color: #5bc0de;
 }
 
 .magenta {
-	background-color: #ff00ff;
+	background-color: #d94fa0;
 }
 
-.yellow {
-	background-color: #ffff00;
+.orange {
+	background-color: #f0ad4e;
 }
 
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
