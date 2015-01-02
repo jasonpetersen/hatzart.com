@@ -23,22 +23,24 @@ body {
 	text-align: center;
 }
 
-p {
-	padding-left: 15px;
-	padding-right: 15px;
+.banner .row {
+	margin-bottom: 20px;
+}
+
+.banner h1, .banner h2 {
+	font-family: 'Architects Daughter', cursive;
 }
 
 .banner h1 {
-	font-family: 'Architects Daughter', cursive;
+	padding-top: 30px;
 }
 
 .gallery .row div {
 	margin-bottom: 10px;
 }
 
-.contact form div {
-	padding-left: 20px;
-	padding-right: 20px;
+#links .row div {
+	margin-bottom: 20px;
 }
 
 .text-center {

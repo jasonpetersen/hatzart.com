@@ -18,15 +18,14 @@
 				</div>
 			</div>
 		</nav>
-		<div class="banner">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-3 col-lg-3">
-						<a href="/"><img src="/images/banner-lg.gif" alt="AH" width="200" height="158"></a>
-					</div>
-					<div class="col-sm-12 col-md-9 col-lg-9">
-						<h1>Amanda Hatzikyriakou<br />New Jersey artist and educator</h1>
-					</div>
+		<div class="banner container">
+			<div class="row">
+				<div class="col-sm-12 col-md-3 col-lg-3">
+					<a href="/"><img src="/images/banner-lg.gif" alt="AH" width="200" height="158"></a>
+				</div>
+				<div class="col-sm-12 col-md-9 col-lg-9">
+					<h1 class="hidden-xs hidden-sm">Amanda Hatzikyriakou<br />New Jersey artist and educator</h1>
+					<h2 class="visible-xs visible-sm">Amanda Hatzikyriakou<br />New Jersey artist and educator</h2>
 				</div>
 			</div>
 		</div>

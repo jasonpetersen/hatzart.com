@@ -8,23 +8,16 @@
 		<link rel="stylesheet" href="/css/bootstrap-image-gallery.min.css">
 		<script src="/js/head.load.min.js"></script>
 		<script>
-			head.load("//code.jquery.com/jquery-1.11.2.min.js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js", "/js/jquery.blueimp-gallery.min.js", "/js/bootstrap-image-gallery.min.js", "/js/demo.js");
+			head.load("//code.jquery.com/jquery-1.11.2.min.js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js", "/js/jquery.blueimp-gallery.min.js", "/js/bootstrap-image-gallery.min.js", "/js/gallery.js");
 		</script>
 	</head>
 	<body>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/nav-banner.php'; ?>
 		<div class="container">
-			<h1>Bootstrap Image Gallery Demo</h1>
 			<blockquote>
-				<p>Bootstrap Image Gallery is an extension to <a href="http://blueimp.github.io/Gallery/">blueimp Gallery</a>, a touch-enabled, responsive and customizable image &amp; video gallery.<br>It displays images and videos in the modal dialog of the <a href="http://getbootstrap.com/">Bootstrap</a> framework, features swipe, mouse and keyboard navigation, transition effects, fullscreen support and on-demand content loading and can be extended to display additional content types.</p>
+				<p>Gallery introduction herein contained.</p>
 			</blockquote>
 			<form class="form-inline">
-				<div class="form-group">
-					<button id="video-gallery-button" type="button" class="btn btn-success btn-lg">
-						<i class="glyphicon glyphicon-film"></i>
-						Launch Video Gallery
-					</button>
-				</div>
 				<div class="form-group">
 					<button id="image-gallery-button" type="button" class="btn btn-primary btn-lg">
 						<i class="glyphicon glyphicon-picture"></i>
@@ -32,28 +25,72 @@
 					</button>
 				</div>
 				<div class="btn-group" data-toggle="buttons">
-				  <label class="btn btn-success btn-lg">
-					<i class="glyphicon glyphicon-leaf"></i>
-					<input id="borderless-checkbox" type="checkbox"> Borderless
-				  </label>
-				  <label class="btn btn-primary btn-lg">
-					<i class="glyphicon glyphicon-fullscreen"></i>
-					<input id="fullscreen-checkbox" type="checkbox"> Fullscreen
-				  </label>
+					<label class="btn btn-success btn-lg">
+						<i class="glyphicon glyphicon-leaf"></i>
+						<input id="borderless-checkbox" type="checkbox"> Borderless
+					</label>
+				</div>
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-primary btn-lg">
+						<i class="glyphicon glyphicon-fullscreen"></i>
+						<input id="fullscreen-checkbox" type="checkbox"> Fullscreen
+					</label>
 				</div>
 			</form>
 			<br>
-			<!-- The container for the list of example images -->
+			<!-- The container for the list of images -->
 			<div id="links">
-				<a href="/images/cyprus-mazotos1-lg.jpg" title="cyprus-mazotos1" data-gallery>
-					<img src="/images/cyprus-mazotos1-sm.jpg" alt="cyprus-mazotos1">
-				</a>
-				<a href="/images/cyprus-mazotos2-lg.jpg" title="cyprus-mazotos2" data-gallery>
-					<img src="/images/cyprus-mazotos2-sm.jpg" alt="cyprus-mazotos2">
-				</a>
-				<a href="/images/cyprus-mazotos3-lg.jpg" title="cyprus-mazotos3" data-gallery>
-					<img src="/images/cyprus-mazotos3-sm.jpg" alt="cyprus-mazotos3">
-				</a>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-mazotos1-lg.jpg" title="cyprus-mazotos1" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos1-sm.jpg" alt="cyprus-mazotos1">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-mazotos2-lg.jpg" title="cyprus-mazotos2" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos2-sm.jpg" alt="cyprus-mazotos2">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-mazotos3-lg.jpg" title="cyprus-mazotos3" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos3-sm.jpg" alt="cyprus-mazotos3">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-mazotos4-lg.jpg" title="cyprus-mazotos4" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos4-sm.jpg" alt="cyprus-mazotos4">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-natl-park3-lg.jpg" title="cyprus-natl-park3" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-natl-park3-sm.jpg" alt="cyprus-natl-park3">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-thalassa1-lg.jpg" title="cyprus-thalassa1" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-thalassa1-sm.jpg" alt="cyprus-thalassa1">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-thalassa2-lg.jpg" title="cyprus-thalassa2" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-thalassa2-sm.jpg" alt="cyprus-thalassa2">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-natl-park2-lg.jpg" title="cyprus-natl-park2" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-natl-park2-sm.jpg" alt="cyprus-natl-park2">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-natl-park1-lg.jpg" title="cyprus-natl-park1" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-natl-park1-sm.jpg" alt="cyprus-natl-park1">
+						</a>
+					</div>
+				</div>
 			</div>
 			<br>
 		</div>
