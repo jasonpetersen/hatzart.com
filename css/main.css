@@ -9,6 +9,10 @@ body {
 	margin-bottom: 60px;/* Margin bottom by footer height */
 }
 
+.container {
+	padding-bottom: 20px;
+}
+
 .nav-rainbow div {
 	height: 2px;
 }
@@ -27,16 +31,16 @@ body {
 	text-align: center;
 }
 
-.banner .row {
-	margin-bottom: 20px;
-}
-
 .banner h1, .banner h2 {
 	font-family: 'Architects Daughter', cursive;
 }
 
 .banner h1 {
 	padding-top: 30px;
+}
+
+.home-intro p, .about-me p, .gallery p {
+	font-size: 120%;
 }
 
 .gallery .row div {

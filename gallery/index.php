@@ -3,7 +3,7 @@
 	<head>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
 		<title>Amanda Hatzikyriakou | Gallery</title>
-		<meta name="description" content="">
+		<meta name="description" content="A gallery of the artist's work.">
 		<link rel="stylesheet" href="/css/blueimp-gallery.min.css">
 		<link rel="stylesheet" href="/css/bootstrap-image-gallery.min.css">
 		<script src="/js/head.load.min.js"></script>
@@ -13,10 +13,9 @@
 	</head>
 	<body>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/nav-banner.php'; ?>
-		<div class="container">
-			<blockquote>
-				<p>Gallery introduction herein contained.</p>
-			</blockquote>
+		<div class="gallery container">
+			<p>All pieces are original, one of a kind watercolor works of art on fine Arches 140 lb cold press 100% cotton paper. Each landscape is inspired by the artists' own photography from travels around the US and world.</p>
+			<br />
 			<form class="form-inline">
 				<div class="form-group">
 					<button id="image-gallery-button" type="button" class="btn btn-primary btn-lg">
@@ -42,52 +41,52 @@
 			<div id="links">
 				<div class="row">
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-mazotos1-lg.jpg" title="cyprus-mazotos1" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-mazotos1-sm.jpg" alt="cyprus-mazotos1">
+						<a href="/images/cyprus-mazotos1-lg.jpg" title="5X7 Mazotos field, Cyprus - SOLD" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos1-sm.jpg" alt="5X7 Mazotos field, Cyprus - SOLD">
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-mazotos2-lg.jpg" title="cyprus-mazotos2" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-mazotos2-sm.jpg" alt="cyprus-mazotos2">
+						<a href="/images/cyprus-mazotos2-lg.jpg" title="8X10 Mazotos by the sea, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos2-sm.jpg" alt="8X10 Mazotos by the sea, Cyprus">
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-mazotos3-lg.jpg" title="cyprus-mazotos3" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-mazotos3-sm.jpg" alt="cyprus-mazotos3">
+						<a href="/images/cyprus-mazotos3-lg.jpg" title="8X10 Road to Mazotos, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos3-sm.jpg" alt="8X10 Road to Mazotos, Cyprus">
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-mazotos4-lg.jpg" title="cyprus-mazotos4" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-mazotos4-sm.jpg" alt="cyprus-mazotos4">
-						</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-natl-park3-lg.jpg" title="cyprus-natl-park3" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-natl-park3-sm.jpg" alt="cyprus-natl-park3">
-						</a>
-					</div>
-					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-thalassa1-lg.jpg" title="cyprus-thalassa1" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-thalassa1-sm.jpg" alt="cyprus-thalassa1">
-						</a>
-					</div>
-					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-thalassa2-lg.jpg" title="cyprus-thalassa2" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-thalassa2-sm.jpg" alt="cyprus-thalassa2">
-						</a>
-					</div>
-					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-natl-park2-lg.jpg" title="cyprus-natl-park2" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-natl-park2-sm.jpg" alt="cyprus-natl-park2">
+						<a href="/images/cyprus-mazotos4-lg.jpg" title="5X7 Mazotos sunset, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-mazotos4-sm.jpg" alt="5X7 Mazotos sunset, Cyprus">
 						</a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-natl-park1-lg.jpg" title="cyprus-natl-park1" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-natl-park1-sm.jpg" alt="cyprus-natl-park1">
+						<a href="/images/cyprus-natl-park3-lg.jpg" title="5X7 Athalassa National Park sunset 1, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-natl-park3-sm.jpg" alt="5X7 Athalassa National Park sunset 1, Cyprus">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-thalassa1-lg.jpg" title="8X10 Aphrodite's Rock, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-thalassa1-sm.jpg" alt="8X10 Aphrodite's Rock, Cyprus">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-thalassa2-lg.jpg" title="8X10 Sea near Aphrodite's Rock, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-thalassa2-sm.jpg" alt="8X10 Sea near Aphrodite's Rock, Cyprus">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-natl-park2-lg.jpg" title="5X7 Athalassa National Park sunset 2, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-natl-park2-sm.jpg" alt="5X7 Athalassa National Park sunset 2, Cyprus">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-natl-park1-lg.jpg" title="7X7 Athalassa National Park sunset 3, Cyprus - SOLD" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-natl-park1-sm.jpg" alt="7X7 Athalassa National Park sunset 3, Cyprus - SOLD">
 						</a>
 					</div>
 				</div>

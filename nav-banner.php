@@ -11,18 +11,18 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
 						<li><a href="/">Home</a></li>
-						<li class="disabled"><a href="#">About</a></li>
+						<li><a href="/about">About</a></li>
 						<li><a href="/gallery">Gallery</a></li>
 						<li><a href="/contact">Contact</a></li>
 					</ul>
 				</div>
 				<div class="row nav-rainbow">
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 red"></div>
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 cyan"></div>
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 green"></div>
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 magenta"></div>
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 blue"></div>
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 orange"></div>
+					<div class="col-xs-2 red"></div>
+					<div class="col-xs-2 cyan"></div>
+					<div class="col-xs-2 green"></div>
+					<div class="col-xs-2 magenta"></div>
+					<div class="col-xs-2 blue"></div>
+					<div class="col-xs-2 orange"></div>
 				</div>
 			</div>
 		</nav>
