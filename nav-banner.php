@@ -16,6 +16,14 @@
 						<li><a href="/contact">Contact</a></li>
 					</ul>
 				</div>
+				<div class="row nav-rainbow">
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 red"></div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 cyan"></div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 green"></div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 magenta"></div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 blue"></div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 yellow"></div>
+				</div>
 			</div>
 		</nav>
 		<div class="banner container">
