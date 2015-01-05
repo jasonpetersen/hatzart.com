@@ -9,6 +9,15 @@ body {
 	margin-bottom: 60px;/* Margin bottom by footer height */
 }
 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	margin-top: 0;
+}
+
 .container {
 	padding-bottom: 20px;
 }
@@ -31,15 +40,22 @@ body {
 	text-align: center;
 }
 
-.banner h1, .banner h2 {
+.banner h1,
+.banner h2 {
 	font-family: 'Architects Daughter', cursive;
 }
 
 .banner h1 {
-	padding-top: 30px;
+	padding-top: 40px;
 }
 
-.home-intro p, .about-me p, .gallery p {
+.banner h2 {
+	padding-top: 10px;
+}
+
+.home-intro p,
+.about-me p,
+.gallery p {
 	font-size: 120%;
 }
 
@@ -87,6 +103,26 @@ body {
 
 .orange {
 	background-color: #f0ad4e;
+}
+
+.news a:link {
+	color: #333333;
+	text-decoration: none;
+}
+
+.news a:visited,
+.news a:hover,
+.news a:active {
+	color: #23527c;
+	text-decoration: none;
+}
+
+.post-title {
+	font-weight: bold;
+}
+
+.post-meta {
+	font-style: italic;
 }
 
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }

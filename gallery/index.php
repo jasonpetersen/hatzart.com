@@ -14,7 +14,7 @@
 	<body>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/nav-banner.php'; ?>
 		<div class="gallery container">
-			<p>All pieces are original, one of a kind watercolor works of art on fine Arches 140 lb cold press 100% cotton paper. Each landscape is inspired by the artists' own photography from travels around the US and world.</p>
+			<p>All pieces are original, one of a kind watercolor works of art on fine Arches 140 lb cold press 100% cotton paper. Each landscape is inspired by the artist's own photography from travels around the US and world.</p>
 			<br />
 			<form class="form-inline">
 				<div class="form-group">
@@ -23,7 +23,7 @@
 						Launch Image Gallery
 					</button>
 				</div>
-				<div class="btn-group" data-toggle="buttons">
+				<div class="btn-group hidden-xs" data-toggle="buttons">
 					<label id="fullscreen-btn" class="btn btn-danger btn-lg">
 						<i class="glyphicon glyphicon-fullscreen"></i>
 						<input id="fullscreen-checkbox" type="checkbox"> Fullscreen
