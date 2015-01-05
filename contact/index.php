@@ -44,7 +44,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<head>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
 		<title>Amanda Hatzikyriakou | Contact</title>
-		<meta name="description" content="">
+		<meta name="description" content="Contact me with inquiries, commissions, job opportunities, or just to say hi!">
 		<script src="/js/head.load.min.js"></script>
 		<script>
 			head.load("//code.jquery.com/jquery-1.11.2.min.js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js");

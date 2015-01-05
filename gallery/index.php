@@ -24,13 +24,7 @@
 					</button>
 				</div>
 				<div class="btn-group" data-toggle="buttons">
-					<label class="btn btn-success btn-lg">
-						<i class="glyphicon glyphicon-leaf"></i>
-						<input id="borderless-checkbox" type="checkbox"> Borderless
-					</label>
-				</div>
-				<div class="btn-group" data-toggle="buttons">
-					<label class="btn btn-primary btn-lg">
+					<label id="fullscreen-btn" class="btn btn-danger btn-lg">
 						<i class="glyphicon glyphicon-fullscreen"></i>
 						<input id="fullscreen-checkbox" type="checkbox"> Fullscreen
 					</label>
@@ -94,7 +88,7 @@
 			<br>
 		</div>
 		<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-		<div id="blueimp-gallery" class="blueimp-gallery">
+		<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
 			<!-- The container for the modal slides -->
 			<div class="slides"></div>
 			<!-- Controls for the borderless lightbox -->

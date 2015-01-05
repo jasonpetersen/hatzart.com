@@ -3,7 +3,7 @@
 	<head>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
 		<title>Amanda Hatzikyriakou | New Jersey artist and educator</title>
-		<meta name="description" content="The work I create is focused around my quiet relationship with outdoor spaces.">
+		<meta name="description" content="PA and NJ art education teacher, accomplished at drawing and painting techniques in a variety of mediums.">
 		<script src="/js/head.load.min.js"></script>
 		<script>
 			head.load("//code.jquery.com/jquery-1.11.2.min.js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js");
