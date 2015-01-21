@@ -67,6 +67,10 @@ h6, .h6 {
 	margin-bottom: 20px;
 }
 
+#links img {
+	height: 150px;
+}
+
 .img-with-wrap-left img {
 	float: left;
 	margin-right: 20px;

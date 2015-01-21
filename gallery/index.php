@@ -34,6 +34,48 @@
 			<!-- The container for the list of images -->
 			<div id="links">
 				<div class="row">
+					<div class="col-xs-12">
+						<h3>Maryland</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/maryland_farm1-lg.jpg" title="8x10 - After the harvest" data-gallery>
+							<img class="img-thumbnail" src="/images/maryland_farm1-sm.jpg" alt="8x10 - After the harvest">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/maryland_farm2-lg.jpg" title="5x7 - Farm in the early winter" data-gallery>
+							<img class="img-thumbnail" src="/images/maryland_farm2-sm.jpg" alt="5x7 - Farm in the early winter">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/maryland_water1-lg.jpg" title="8x10 - Chesapeake swamp" data-gallery>
+							<img class="img-thumbnail" src="/images/maryland_water1-sm.jpg" alt="8x10 - Chesapeake swamp">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/maryland_water2-lg.jpg" title="11x14 - Chesapeake area lake" data-gallery>
+							<img class="img-thumbnail" src="/images/maryland_water2-sm.jpg" alt="11x14 - Chesapeake area lake">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>Cyprus</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/village1-lg.jpg" title="5x7 - Tochni village home" data-gallery>
+							<img class="img-thumbnail" src="/images/village1-sm.jpg" alt="5x7 - Tochni village home">
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/village2-lg.jpg" title="5x7 - Koilani village door" data-gallery>
+							<img class="img-thumbnail" src="/images/village2-sm.jpg" alt="5x7 - Koilani village door">
+						</a>
+					</div>
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
 						<a href="/images/cyprus-mazotos1-lg.jpg" title="5X7 Mazotos field, Cyprus - SOLD" data-gallery>
 							<img class="img-thumbnail" src="/images/cyprus-mazotos1-sm.jpg" alt="5X7 Mazotos field, Cyprus - SOLD">
@@ -44,6 +86,8 @@
 							<img class="img-thumbnail" src="/images/cyprus-mazotos2-sm.jpg" alt="8X10 Mazotos by the sea, Cyprus">
 						</a>
 					</div>
+				</div>
+				<div class="row">
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
 						<a href="/images/cyprus-mazotos3-lg.jpg" title="8X10 Road to Mazotos, Cyprus" data-gallery>
 							<img class="img-thumbnail" src="/images/cyprus-mazotos3-sm.jpg" alt="8X10 Road to Mazotos, Cyprus">
@@ -52,13 +96,6 @@
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
 						<a href="/images/cyprus-mazotos4-lg.jpg" title="5X7 Mazotos sunset, Cyprus" data-gallery>
 							<img class="img-thumbnail" src="/images/cyprus-mazotos4-sm.jpg" alt="5X7 Mazotos sunset, Cyprus">
-						</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-						<a href="/images/cyprus-natl-park3-lg.jpg" title="5X7 Athalassa National Park sunset 1, Cyprus" data-gallery>
-							<img class="img-thumbnail" src="/images/cyprus-natl-park3-sm.jpg" alt="5X7 Athalassa National Park sunset 1, Cyprus">
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -71,13 +108,18 @@
 							<img class="img-thumbnail" src="/images/cyprus-thalassa2-sm.jpg" alt="8X10 Sea near Aphrodite's Rock, Cyprus">
 						</a>
 					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+						<a href="/images/cyprus-natl-park3-lg.jpg" title="5X7 Athalassa National Park sunset 1, Cyprus" data-gallery>
+							<img class="img-thumbnail" src="/images/cyprus-natl-park3-sm.jpg" alt="5X7 Athalassa National Park sunset 1, Cyprus">
+						</a>
+					</div>
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
 						<a href="/images/cyprus-natl-park2-lg.jpg" title="5X7 Athalassa National Park sunset 2, Cyprus" data-gallery>
 							<img class="img-thumbnail" src="/images/cyprus-natl-park2-sm.jpg" alt="5X7 Athalassa National Park sunset 2, Cyprus">
 						</a>
 					</div>
-				</div>
-				<div class="row">
 					<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
 						<a href="/images/cyprus-natl-park1-lg.jpg" title="7X7 Athalassa National Park sunset 3, Cyprus - SOLD" data-gallery>
 							<img class="img-thumbnail" src="/images/cyprus-natl-park1-sm.jpg" alt="7X7 Athalassa National Park sunset 3, Cyprus - SOLD">
